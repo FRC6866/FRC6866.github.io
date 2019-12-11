@@ -4,6 +4,7 @@ title: Posts
 navbar: Posts
 ---
 
+{% include gallery.html %}
 
 {% for post in site.posts %}
 
@@ -27,7 +28,7 @@ navbar: Posts
       </p>
     </div>
     <div class="card-action">
-      <a href="{{ post.url | relative_url }}">View Post</a>
+      <a class="purple-text" href="{{ post.url | relative_url }}">View Post</a>
     </div>
   </div>
 
@@ -47,7 +48,7 @@ navbar: Posts
     </p>
   </div>
   <div class="card-action">
-    <a href="{{ post.url | relative_url }}">View Post</a>
+    <a class="purple-text" href="{{ post.url | relative_url }}">View Post</a>
   </div>
 </div>
 

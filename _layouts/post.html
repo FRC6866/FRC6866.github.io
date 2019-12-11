@@ -22,7 +22,7 @@ layout: default
       {% if page.image %}
       <div class="post-content row">
         <div class="col m6 s12">
-          <img src="{{ page.image | relative_url }}" style="width: 100%"></img>
+          <img src="{{site.url}}/assets/posts{{ page.image | relative_url }}" style="width: 100%"></img>
         </div>
         <div class="col m6 s12">
           {{ content }}

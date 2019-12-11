@@ -28,5 +28,3 @@ Meet us at Markham Village Library on December 29th from 10 AM - 1 PM.
 We hope to see you there!
 
 If you have any questions, please contact us at [contact@mcrobotics.ca](mailto:contact@mcrobotics.ca)
-
-{% include gallery.html %}
