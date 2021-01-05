@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Outreach Event At Markham Village Library"
-
 image: 2018-12-29-markham-village-poster.jpg
 excerpt_separator: <!--more-->
 ---
@@ -26,5 +25,3 @@ But this is not all! Not only we will be having interesting experiments and acti
 Meet us at Markham Village Library on December 29th from 10 AM - 1 PM. 
 
 We hope to see you there!
-
-If you have any questions, please contact us at [contact@mcrobotics.ca](mailto:contact@mcrobotics.ca)

@@ -1,13 +1,21 @@
+{{include.images}}
+<br>
+
+{% assign list = {{include.images}} | split: ":" %}
+<br>
+ 
+{{list | array_to_sentence_string }}
+<br>
+
 <div class="carousel carousel-slider center">
     <!--<div class="carousel-fixed-item center">
         <!--<a class="btn waves-effect white grey-text darken-text-2">button</a>
     </div>-->
-    {% for image in imageList %}
+
+    {% for image in list %}
+    {{ image }}
     <div class="carousel-item " href="#one!">
         <img src="{{ image }}">
     </div>
     {% endfor %}
 </div>
-
-
-  
